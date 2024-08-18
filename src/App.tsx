@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import styles from "./app.module.css";
+// import styles from "./app.module.css";
 // import Projects from "../projects.ts";
 // import ProjectComponent from "./components/projectComponent.tsx";
 
