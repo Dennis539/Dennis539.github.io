@@ -1,5 +1,5 @@
 // import { useState } from 'react'
-import "./App.css";
+import styles from "./app.module.css";
 import Projects from "../projects.ts";
 import ProjectComponent from "./components/projectComponent.tsx";
 
@@ -12,7 +12,7 @@ function App() {
             <header>
                 <h1>Dennis Vriend's Github Pages</h1>
             </header>
-            <div className="Kees">{projectStruct}</div>
+            <div className={styles.projectsGrid}>{projectStruct}</div>
         </>
     );
 }
