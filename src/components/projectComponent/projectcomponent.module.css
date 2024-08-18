@@ -1,0 +1,20 @@
+.projectCard {
+    display: flex;
+    flex-direction: column;
+    background-color: #252524;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.projectCard p {
+    flex: 1;
+    color: white;
+}
+.projectCard h1 {
+    color: white;
+}
+
+.skillCardsContainer {
+    display: flex;
+    margin-left: 0px;
+}

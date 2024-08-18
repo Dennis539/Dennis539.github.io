@@ -19,17 +19,3 @@ h1 {
   line-height: 1.1;
 }
 
-
-footer {
-  background-color: black;
-  display: block;
-  width: 100%;
-  position:fixed;
-  bottom: 0px;
-
-}
-
-footer ul {
-  list-style-type:none;
-}
-
