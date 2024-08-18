@@ -1,4 +1,14 @@
 .projectCard {
-  background-color: black;
-  top: 300px
+    display: flex;
+    flex-direction: column;
+    background-color: #363636;
+    /* top: 300px; */
+    padding-left: 30px;
 }
+
+.projectCard p {
+    flex: 1;
+}
+/* .projectCard h1 {
+    margin: 5px;
+} */

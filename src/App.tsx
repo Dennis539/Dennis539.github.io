@@ -5,7 +5,11 @@ import ProjectComponent from "./components/projectComponent.tsx";
 
 function App() {
     const projectStruct = Projects.map((project, index) => (
-        <ProjectComponent key={index} name={project.Name} />
+        <ProjectComponent
+            key={index}
+            name={project.Name}
+            description={project.Description}
+        />
     ));
     return (
         <>
