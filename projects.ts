@@ -1,16 +1,16 @@
 const Projects = [
     {
-        "Name": "Space invaders",
-        "Description": "Doggo ipsum waggy wags long bois noodle horse borkf clouds heckin angery woofer, heckin very good spot puggorino such treat heckin angery woofer, heckin good boys and girls waggy wags stop it fren length boy. You are doing me the shock mlem super chub wow very biscit doggo, long water shoob h*ck extremely cuuuuuute. Stop it fren mlem borkf blop pupper fluffer, pupperino clouds very good spot. Heckin angery woofer heckin heckin good boys and girls smol much ruin diet blop, ruff long woofer heckin angery woofer. Fat boi boof vvv puggo aqua doggo heckin good boys, heckin clouds borking doggo corgo. Shoob blep length boy ur givin me a spook super chub waggy wags, adorable doggo fluffer pupper. Blop smol vvv lotsa pats mlem, pats very hand that feed shibe. Doge wrinkler sub woofer fluffer, the neighborhood pupper porgo extremely cuuuuuute many pats, pats very hand that feed shibe. Pupperino you are doin me a concern smol borking doggo with a long snoot for pats waggy wags smol, shibe what a nice floof adorable doggo floofs, heck porgo shoob. Maximum borkdrive pupper waggy wags, doggo. Blop pupper doing me a frighten blop extremely cuuuuuute smol floofs, puggo blep pupperino stop it fren. Stop it fren maximum borkdrive he made many woofs doge, smol smol borking doggo with a long snoot for pats. wrinkler long water shoob. Fat boi puggorino most angery pupper I have ever seen, blep. What a nice floof aqua doggo tungg borkf pats, boofers borkdrive. Aqua doggo fluffer extremely cuuuuuute puggorino heck, much ruin diet very hand that feed shibe. Adorable doggo snoot boof adorable doggo most angery pupper I have ever seen tungg, very taste wow very hand that feed shibe porgo smol. Long water shoob very good spot big ol pupper yapper snoot, many pats wow very biscit fat boi. Ruff fat boi wrinkler very good spot ruff, blop long bois. Mlem shoober floofs long water shoob, heckin good boys and girls shooberino. Puggorino snoot heck doge heckin angery woofer, woofer doggo waggy wags the neighborhood pupper shoober, you are doing me the shock bork pats. Smol heckin aqua doggo porgo, long woofer you are doin me a concern big ol h*ck, wrinkler pats.",
-        "Skills": ["Typescript", "CSS"], 
-        "Url": "https://Dennis539.github.io/SpaceInvaders"
+        Name: "Space invaders",
+        Description: "A simple version of the famous game Space Invaders",
+        Skills: ["Typescript", "CSS"],
+        Url: "https://Dennis539.github.io/SpaceInvaders",
     },
     {
-        "Name": "PacMan clone",
-        "Description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Suscipit tellus mauris a diam. Ut ornare lectus sit amet est placerat in. Cursus sit amet dictum sit amet justo donec enim. Mauris pharetra et ultrices neque ornare aenean. Turpis egestas sed tempus urna. Sit amet porttitor eget dolor morbi non arcu risus quis. Ac turpis egestas maecenas pharetra. Euismod quis viverra nibh cras. Enim blandit volutpat maecenas volutpat blandit aliquam etiam. Quisque non tellus orci ac auctor augue mauris. Quis vel eros donec ac odio tempor orci dapibus. Non blandit massa enim nec dui. Euismod elementum nisi quis eleifend quam. Cras ornare arcu dui vivamus arcu felis. Porttitor eget dolor morbi non arcu risus quis varius quam. Quis viverra nibh cras pulvinar mattis nunc. At elementum eu facilisis sed odio morbi. Morbi quis commodo odio aenean. Consectetur adipiscing elit pellentesque habitant morbi tristique senectus et netus. Diam quis enim lobortis scelerisque fermentum dui faucibus. Eu ultrices vitae auctor eu augue ut lectus arcu. Nisi porta lorem mollis aliquam ut porttitor. In arcu cursus euismod quis viverra nibh cras pulvinar. Id interdum velit laoreet id. Egestas tellus rutrum tellus pellentesque eu. Rhoncus aenean vel elit scelerisque mauris. Pretium fusce id velit ut tortor. A pellentesque sit amet porttitor eget dolor. Et netus et malesuada fames ac turpis egestas maecenas. Lectus quam id leo in vitae turpis massa sed elementum. In est ante in nibh mauris cursus. Lectus vestibulum mattis ullamcorper velit. Sed velit dignissim sodales ut eu sem integer. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim. Tellus orci ac auctor augue mauris augue neque gravida. Facilisis mauris sit amet massa. Sed ullamcorper morbi tincidunt ornare massa eget egestas purus. Magna etiam tempor orci eu. Eget magna fermentum iaculis eu non. Viverra nam libero justo laoreet sit. Non consectetur a erat nam at lectus urna duis convallis. Eget mi proin sed libero enim sed faucibus turpis in. Amet nulla facilisi morbi tempus iaculis urna id. Eu volutpat odio facilisis mauris.",
-        "Skills": ["Typescript", "Algorithms"],
-        "Url": "https://dennis539.github.io/PacmanAlgo/"
-    }
+        Name: "PacMan clone",
+        Description: "My own version of Pacman",
+        Skills: ["Typescript", "Algorithms"],
+        Url: "https://dennis539.github.io/PacmanAlgo/",
+    },
 ]
 
 export default Projects

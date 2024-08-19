@@ -21,7 +21,9 @@ function App() {
             <div>
                 <h1>Hello world</h1>
             </div>
-            <div className={styles.projectsGrid}>{projectStruct}</div>
+            <div className={styles.projectGridWrapper}>
+                <div className={styles.projectsGrid}>{projectStruct}</div>
+            </div>
             <footer>
                 Created by{" "}
                 <a href="https://github.com/Dennis539">Dennis Vriend</a>
