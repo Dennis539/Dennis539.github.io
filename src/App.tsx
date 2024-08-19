@@ -18,8 +18,14 @@ function App() {
             <header>
                 <h1>Dennis Vriend's Github Pages</h1>
             </header>
-            <div>
-                <h1>Hello world</h1>
+            <div className={styles.projectsDescription}>
+                <div>
+                    <h1>Projects</h1>
+                    <p>
+                        Some of the personal project where I have been working
+                        on for the last few years
+                    </p>
+                </div>
             </div>
             <div className={styles.projectGridWrapper}>
                 <div className={styles.projectsGrid}>{projectStruct}</div>

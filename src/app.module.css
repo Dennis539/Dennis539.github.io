@@ -6,7 +6,6 @@
 }
 
 .projectsGrid {
-  
   display: inline-grid;
   grid-template-columns: repeat(2, 1fr);
   /* place-self: center; */
@@ -16,6 +15,21 @@
   grid-row-gap: 30px;
   margin-left: 200px;
   margin-right: 200px;
+}
+
+.projectsDescription{
+  display: flex;
+  text-align: center;
+    justify-content: center;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.projectsDescription p{
+    text-align: center;
+  justify-content: center;
+  max-width: 300px;
 }
 
 header { 
