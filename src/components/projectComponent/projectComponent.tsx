@@ -27,12 +27,17 @@ const ProjectComponent: React.FC<projectComponent> = ({
     // const handleClick = () => {
     //     navigate(link)
     // }
+
     return (
         <div key={key} className={styles.projectCard}>
-            <h1>{name}</h1>
+            <a href={link} className={styles.gameLink}>
+                {" "}
+                <h1>{name}</h1>
+                <iframe src={link} loading="lazy"></iframe>
+            </a>
+
             <p>{description}</p>
             <div className={styles.skillCardsContainer}>{skillCards}</div>
-            <a href={link}>{name}</a>
         </div>
     )
 }

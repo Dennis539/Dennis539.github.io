@@ -20,14 +20,14 @@
 .projectsDescription{
   display: flex;
   text-align: center;
-    justify-content: center;
+  justify-content: center;
 
   margin-top: 20px;
   margin-bottom: 20px;
 }
 
 .projectsDescription p{
-    text-align: center;
+  text-align: center;
   justify-content: center;
   max-width: 300px;
 }
@@ -52,4 +52,8 @@ footer {
   padding: 10px;
   margin-top: 20px;
   top: min(1200px)
+}
+
+.bodyMain {
+  margin: 0px;
 }
