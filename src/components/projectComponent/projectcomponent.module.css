@@ -4,6 +4,7 @@
     background-color: hsl(60, 1%, 14%);
     padding: 30px;
     max-height: 250px;
+    box-shadow: black 10px 12px 0.6em;
 }
 
 .projectCard p {
@@ -28,10 +29,11 @@
 }
 
 .iFrameDisplay { 
-    display: none;
-    transform: scale(.25); 
+    /* display: none; */
     width: 400%; 
     height: 400%; 
     position:relative;
     transform-origin: 0 0;
+    scale: 0.4;
+
 }

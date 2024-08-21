@@ -22,26 +22,43 @@ const ProjectComponent: React.FC<projectComponent> = ({
         <SkillCard key={key} skill={skill} />
     ))
 
-    // const navigate = useNavigate()
+    const [showPreview, setShowPreview] = React.useState(false)
+    const [showCardContent, setShowCardContent] = React.useState(true)
 
-    // const handleClick = () => {
-    //     navigate(link)
-    // }
+    const videoPreviewOn = () => {
+        setShowPreview(true)
+        setShowCardContent(false)
+    }
+
+    const videoPreviewOff = () => {
+        setShowPreview(false)
+        setShowCardContent(true)
+    }
 
     return (
         <div key={key} className={styles.projectCard}>
-            <a href={link} className={styles.gameLink}>
+            <a
+                href={link}
+                className={styles.gameLink}
+                onMouseEnter={() => videoPreviewOn()}
+                onMouseLeave={() => videoPreviewOff()}
+            >
                 {" "}
                 <h1>{name}</h1>
-                <iframe
-                    src={link}
-                    loading="lazy"
-                    className={styles.iFrameDisplay}
-                ></iframe>
+                <div></div>
+                {showPreview ? (
+                    <iframe
+                        src={link}
+                        loading="lazy"
+                        className={styles.iFrameDisplay}
+                    ></iframe>
+                ) : null}
             </a>
 
             <p>{description}</p>
-            <div className={styles.skillCardsContainer}>{skillCards}</div>
+            <div className={styles.skillCardsContainer}>
+                {showCardContent ? skillCards : null}
+            </div>
         </div>
     )
 }
