@@ -33,7 +33,11 @@ const ProjectComponent: React.FC<projectComponent> = ({
             <a href={link} className={styles.gameLink}>
                 {" "}
                 <h1>{name}</h1>
-                <iframe src={link} loading="lazy"></iframe>
+                <iframe
+                    src={link}
+                    loading="lazy"
+                    className={styles.iFrameDisplay}
+                ></iframe>
             </a>
 
             <p>{description}</p>
