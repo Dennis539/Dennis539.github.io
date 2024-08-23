@@ -39,7 +39,7 @@
 
 .iFrameDiv {
     height: 200px;
-    width: 340px;
+    width: 340px; /* Hardcoded for now*/
     display: flexbox;
     overflow: hidden;
 }
