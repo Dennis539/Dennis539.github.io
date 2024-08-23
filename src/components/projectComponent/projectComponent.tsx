@@ -45,17 +45,19 @@ const ProjectComponent: React.FC<projectComponent> = ({
             >
                 {" "}
                 <h1>{name}</h1>
-                <div></div>
                 {showPreview ? (
-                    <iframe
-                        src={link}
-                        loading="lazy"
-                        className={styles.iFrameDisplay}
-                    ></iframe>
+                    <div className={styles.iFrameDiv}>
+                        <iframe
+                            src={link}
+                            loading="lazy"
+                            className={styles.iFrameDisplay}
+                            seamless
+                        ></iframe>
+                    </div>
                 ) : null}
             </a>
 
-            <p>{description}</p>
+            <p>{showCardContent ? description : null}</p>
             <div className={styles.skillCardsContainer}>
                 {showCardContent ? skillCards : null}
             </div>

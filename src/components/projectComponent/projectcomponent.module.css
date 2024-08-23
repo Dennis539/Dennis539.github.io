@@ -30,10 +30,16 @@
 
 .iFrameDisplay { 
     /* display: none; */
-    width: 400%; 
-    height: 400%; 
+    width: 300%; 
+    height: 300%; 
     position:relative;
     transform-origin: 0 0;
-    scale: 0.4;
+    scale: 0.3;
+}
 
+.iFrameDiv {
+    height: 200px;
+    width: 340px;
+    display: flexbox;
+    overflow: hidden;
 }
