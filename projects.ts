@@ -1,7 +1,7 @@
 const Projects = [
     {
         Name: "Space invaders",
-        Description: "A simple version of the famous game Space Invaders",
+        Description: "A simple version of the game Space Invaders",
         Skills: ["Typescript", "CSS"],
         Url: "https://Dennis539.github.io/SpaceInvaders",
     },

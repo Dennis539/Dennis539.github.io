@@ -5,6 +5,7 @@
     padding: 30px;
     max-height: 250px;
     box-shadow: black 10px 12px 0.6em;
+    width: 400px;
 }
 
 .projectCard p {
