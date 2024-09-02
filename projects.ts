@@ -7,7 +7,8 @@ const Projects = [
     },
     {
         Name: "PacMan clone",
-        Description: "My own version of Pacman",
+        Description:
+            "My own version of Pacman with different path-finding algorithms",
         Skills: ["Typescript", "Algorithms"],
         Url: "https://dennis539.github.io/PacmanAlgo/",
     },
