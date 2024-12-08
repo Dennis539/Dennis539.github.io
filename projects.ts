@@ -1,5 +1,12 @@
 const Projects = [
     {
+        Name: "European coordinates site",
+        Description:
+            "Website displaying all European opponents of various football teams in Europe",
+        Skills: ["Python", "Data-engineering", "Typescript", "Web-scraping"],
+        Url: "https://main.d1erk8pg0cyrw8.amplifyapp.com/",
+    },
+    {
         Name: "Space invaders",
         Description: "A simple version of the game Space Invaders",
         Skills: ["Typescript", "CSS"],
